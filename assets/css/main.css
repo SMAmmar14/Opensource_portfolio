@@ -1932,6 +1932,7 @@ ol {
   position: relative;
   background: #f6f9fc;
   overflow: hidden;
+  padding-bottom: 50px;
 }
 
 .hero-area .hero-inner {
@@ -5140,4 +5141,12 @@ blockquote span {
 .free-version-banner .button .btn {
   background-color: #fff;
   color: #3763EB;
+}
+
+
+@media (max-width:576px) {
+
+    .personal-image{
+      display: none;
+    }
 }

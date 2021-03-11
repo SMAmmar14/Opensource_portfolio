@@ -25,6 +25,19 @@
     <link rel="stylesheet" href="./Portfolio Details_files/glightbox.min.css">
     <link rel="stylesheet" href="./Portfolio Details_files/main.css">
 </head>
+<style>
+    
+@media (max-width:576px) {
+
+    .personal-image{
+      display: none;
+    }
+    .hero-area{
+        padding-bottom: 50px;
+    }
+}
+
+</style>
 
 <body>
     <!--[if lte IE 9]>
@@ -93,7 +106,7 @@
     <!-- End Header Area -->
 
     <!-- Start Hero Area -->
-    <section class="hero-area">
+    <section class="hero-area" >
         <!-- Single Slider -->
         <div class="hero-inner">
             <div class="container">
@@ -112,12 +125,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
-                        <div class="personal-image wow fadeInRight" data-wow-delay=".5s"
-                            style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;
-                             @media only screen and (max-width: 600px) {
- display: none;
-}">
-                            <img src="./assets/images/about/me.jpg" alt="#" style="width: 100%;">
+                        <div class="personal-image wow fadeInRight text-center " data-wow-delay=".5s"
+                            style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight; ">
+                            <img src="./assets/images/about/me.jpg" alt="#" style="width: 80%;">
                         </div>
                     </div>
                 </div>
